@@ -1,0 +1,23 @@
+Pasos Git Hub
+    
+    1- git init
+    2- git add .
+    3- git commit -m "mensaje"
+
+ya cuando tenga estos comandos en el proyecto que quiere subir
+crea el repositorio en git hub y con el url del repositorio tira el siguiente comando
+    
+    4- git remote add origin url
+    5- git push -u origin master
+
+y ya esta subido
+
+si quiere trabajar desde otro computador con el mismo proyecto, copia el url del repositorio y
+
+    6- git clone url en git bash
+
+
+
+    IMPORTANTE!!!!
+
+"git init" solo se crea una vez para el proyecto
