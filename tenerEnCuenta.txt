@@ -1,20 +1,33 @@
+Para computadores nuevos
+
+=> git config --global user.name "Usuario de GitHub"
+=> git config --global user.email "Correo en GitHub"
+
+
 Pasos Git Hub
-    
+
+para nuevo proyecto
     1- git init
     2- git add .
     3- git commit -m "mensaje"
 
-ya cuando tenga estos comandos en el proyecto que quiere subir
+ya cuando tenga estos comandos en el proyecto que quiero subir
 crea el repositorio en git hub y con el url del repositorio tira el siguiente comando
     
-    4- git remote add origin url
+    4- git remote add origin "url"
     5- git push -u origin master
 
 y ya esta subido
 
+Para subir cambios nuevos del proyecto al repositorio
+    6- git add .
+    7- git commit -m "el nombre del cambio"
+    8- git push
+y ya
+
 si quiere trabajar desde otro computador con el mismo proyecto, copia el url del repositorio y
 
-    6- git clone url en git bash
+    - git clone url en git bash
 
 
 
